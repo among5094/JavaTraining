@@ -24,7 +24,8 @@ public class Circle {
 		area=donut.getArea();
 		System.out.println("donut.radius"+donut.radius+"  "+"donut.name"+donut.name);
 		
-		
+		//대신 pizza 객체의 radius와 name필드가 초기화되지 않았다. 
+		//객체가 생성될 때 초기화해주기 위해 생성자를 사용
 		
 	}
 }
